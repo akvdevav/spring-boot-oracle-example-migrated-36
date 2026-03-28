@@ -1,12 +1,15 @@
 package guru.springframework.commands;
 
-
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
  * Created by jt on 1/10/17.
  */
-public class ProductForm {
+public class ProductForm implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
     private Long id;
     private String description;
     private BigDecimal price;
