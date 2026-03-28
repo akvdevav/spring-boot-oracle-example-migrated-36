@@ -26,6 +26,12 @@
     </properties>
 
     <dependencies>
+        <!-- Core Spring Boot starter (includes autoconfigure, logging, etc.) -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
         <!-- Spring Data JPA -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
