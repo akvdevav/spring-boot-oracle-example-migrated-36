@@ -38,6 +38,13 @@
             <artifactId>postgresql</artifactId>
         </dependency>
 
+        <!-- Oracle JDBC driver (required for legacy Oracle datasource configuration) -->
+        <dependency>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>ojdbc8</artifactId>
+            <version>23.3.0.0</version>
+        </dependency>
+
         <!-- Thymeleaf for view rendering -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
